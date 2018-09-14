@@ -1,0 +1,31 @@
+{
+  "name": "ye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mulan-lib": "^1.0.26",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm install && pm2 startOrRestart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomorefeel/ye.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomorefeel/ye/issues"
+  },
+  "homepage": "https://github.com/nomorefeel/ye#readme"
+}
